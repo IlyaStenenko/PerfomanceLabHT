@@ -15,8 +15,8 @@ public class task1 {
             way.add(i == 0 ? n : i);
             i = (i + m - 1) % n;
         } while (i != 1);
-        for (int j = 0;j < way.size();j++){
-            System.out.print(way.get(j) + " ");
+        for (Integer integer : way) {
+            System.out.print(integer + " ");
         }
     }
 }
